@@ -142,8 +142,8 @@ public class createProduct {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            // Close the WebDriver session
-            // driver.quit();
+            //Close the WebDriver session
+            driver.quit();
         }
     }
 }
